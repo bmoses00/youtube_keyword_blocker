@@ -1,0 +1,18 @@
+{
+    "name": "Youtube Video Blocker",
+    "version": "0.1",
+    "description": "Add keywords for videos you would like to block. Any video with a title containing those keywords will not appear in your feed.",
+    "browser_action": {
+       "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+        "matches": ["https://*.youtube.com/*"],
+        "js": ["block_youtube_vids.js"]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "manifest_version": 2
+}
