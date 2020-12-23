@@ -1,1 +1,3 @@
-# youtube_keyword_blocker
+# Youtube Keyword Blocker
+
+Code uploaded to GitHub after project completion for public viewing.
